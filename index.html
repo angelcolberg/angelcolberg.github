@@ -1,21 +1,37 @@
 ---
-layout: home-page
+layout: default
+title: A minimal, fixed sidebar grid portfolio Jekyll theme.
+description: A minimal, fixed sidebar grid portfolio Jekyll theme.
+featured_image: /images/social.jpg
 ---
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-  <li>
-    <div class="post-card">
-      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
-      </a>
 
-      <div class="post-card-body">
-        {% for tag in post.tags %}
-        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
-        {% endfor %}
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
-      </div>
+<section class="portfolio">
 
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+	<div class="content-wrap portfolio-wrap">
+
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

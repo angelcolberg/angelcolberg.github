@@ -1,20 +1,55 @@
-<header class="main-header">
-  <div class="wrapper">
-    <div class="header-flex">
-      <div class="menu-icon-container">
-        <span class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-      </div>
-      <nav class="main-nav">
-        <span class="menu-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
-        <ul>
-          <li><a href="{{site.baseurl}}/">Blog</a></li>
-          <li><a href="{{site.baseurl}}/about">About</a></li>
-        </ul>
-      </nav>
-      <p class="logo"><a href="{{site.baseurl}}/">{{ site.author }}</a></p>
-      <div class="search-icon-container">
-        <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
-      </div>
-    </div>
-  </div>
-</header> <!-- End Header -->
+<header class="header">
+
+	<div class="header__content">
+
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
+
+		<h1 class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</h1>
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					{% for item in site.data.settings.menu_settings.menu_items %}
+					<li class="menu__list__item">
+						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		<div class="projects-menu">
+			<ul class="menu__list">
+				{% for project in site.projects reversed %}
+				<li class="menu__list__item">
+					<a href="{{ project.url }}" class="menu__list__item__link">{{ project.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="header__lower">
+
+			{% include socials.html %}
+
+			<div class="footer__copyright">
+				<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+				<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
