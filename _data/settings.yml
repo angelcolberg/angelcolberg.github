@@ -1,11 +1,11 @@
 basic_settings:
-  site_title: Index
-  site_tagline: A minimal, fixed sidebar grid portfolio Jekyll theme.
+  site_title: Angel Colberg
+  site_tagline: 
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
-  logo_width: 200
+  logo_image: /images/logo.png
+  logo_width: 50
 
 menu_settings:
   menu_items:
@@ -54,16 +54,17 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#0C5DF2'
+  accent_color: '#E91E63'
   border_color: '#eeeeee'
   overlay_background_color: '#0C5DF2'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
-  body_font: '"Montserrat", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Nanum+Gothic+Coding|Playfair+Display:900" rel="stylesheet">'
+  title_font: '"Playfair Display", serif'
+  body_font: '"Roboto Condensed", sans-serif'
+  menu_font: '"Roboto Condensed", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:

@@ -21,7 +21,7 @@
 		top: 0;
 		left: 0;
 		bottom: 0;
-		width: 30%;
+		width: 20%;
 		padding: 0;
 	}
 }
@@ -43,7 +43,7 @@
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
-
+	
 	@include mq(tabletp) {
 		float: left;
 		max-width: 50%;
@@ -188,7 +188,7 @@
 	left: 0;
 	background: rgba($overlay-background-color,0.95);
 	overflow: auto;
-
+	padding-top: 2.5em;
 	visibility: hidden;
 	opacity: 0;
 	@include transition(all 0.2s ease-in-out);
@@ -224,7 +224,7 @@
 }
 
 .menu__list__item {
-
+	font-family: $menu-font;
 }
 
 .menu__list__item__link {
