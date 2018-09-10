@@ -12,7 +12,8 @@ menu_settings:
 
     - title: 'Blog'
       url: '/blog/'
-
+    - title: 'Use Cases'
+      url: '/'
     - title: 'About'
       url: '/about'
 
@@ -65,6 +66,7 @@ font_settings:
   title_font: '"Playfair Display", serif'
   body_font: '"Roboto Condensed", sans-serif'
   menu_font: '"Roboto Condensed", sans-serif'
+  mono_font: '"Nanum Gothic Coding", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
