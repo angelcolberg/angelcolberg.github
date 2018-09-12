@@ -43,9 +43,9 @@
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
-	
+	margin: 0 auto;
 	@include mq(tabletp) {
-		float: left;
+		//float: left;
 		max-width: 50%;
 	}
 }
@@ -77,12 +77,13 @@
 
 .header__tagline {
 	margin-top: 20px;
+	font-family: $mono-font;
 	font-size: $sitetagline-small;
 	font-weight: $sitetagline-weight;
 	letter-spacing: $sitetagline-spacing;
 	line-height: $sitetagline-lineheight;
 	color: $text-medium-color;
-
+	text-align: center;
 	@include mq(tabletp) {
 		font-size: $sitetagline-medium;
 	}
@@ -101,12 +102,12 @@
 	
 	@include mq(tabletl) {
 		margin-top: 30px;
-		margin-left: 10px;
+		//margin-left: 10px;
 	}
 
 	@include mq(laptop) {
 		margin-top: 40px;
-		margin-left: 20px;
+		//margin-left: 20px;
 	}
 }
 
@@ -190,7 +191,7 @@
 	left: 0;
 	background: rgba($overlay-background-color,0.95);
 	overflow: auto;
-	padding-top: 2.5em;
+	//padding-top: 2.5em;
 	visibility: hidden;
 	opacity: 0;
 	@include transition(all 0.2s ease-in-out);
@@ -226,7 +227,8 @@
 }
 
 .menu__list__item {
-	font-family: $menu-font;
+	font-family: $mono-font;
+	text-align: center;
 }
 
 .menu__list__item__link {

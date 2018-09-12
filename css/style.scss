@@ -35,6 +35,7 @@ $error-color: #D64541;
 
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
+$display-font: {{ site.data.settings.font_settings.display_font }};
 $menu-font: {{ site.data.settings.font_settings.menu_font }};
 $mono-font: {{ site.data.settings.font_settings.mono_font }};
 $regular-weight: {{ site.data.settings.font_settings.regular_weight }};

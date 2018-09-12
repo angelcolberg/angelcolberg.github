@@ -10,7 +10,7 @@ featured_image: '/images/posts/ucd-process.png'
 
 This is a quick overview of the current design process, methods, and techniques which I employ in order to assess causal user needs and frustrations using observational and subjective data. I do this so that I can properly identify which features will satisfy the user's goals and add a definitive value proposition to their experience beyond just solving business case or the initial problem definition. 
 
-Having a deliberate process is especially useful in cases where I need to:
+Having a hypothesis driven design process is especially useful in cases where I need to:
 
 1. make a decision based on observational or subjective data, otherwise known as qualitative data.
 2. gather behavioral and attitudinal insights from users' qualitative data.
@@ -49,7 +49,7 @@ Define the brand, identity, color palette, and typography. Create mockups and de
 ### Evaluative Phase
 
 #### Usability Testing
-Planning and running cognitive evaluations around ease of use, and learnability.
+Planning and running heuristic and  evaluations around ease of use, and learnability.
 
 #### User Testing
 Attitudinal and behavioral evaluations of hypotheses.

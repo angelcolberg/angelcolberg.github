@@ -25,7 +25,7 @@ body {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $title-font;
+	font-family: $display-font;
 	color: $text-dark-color;
 
 	&:first-child {
@@ -38,7 +38,7 @@ h1, .h1 {
 	font-weight: $h1-weight;
 	line-height: $h1-lineheight;
 	letter-spacing: $h1-spacing;
-
+	//font-family: $mono-font;
 	@include mq(tabletp) {
 		font-size: $h1-medium;
 	}
@@ -86,7 +86,7 @@ h4, .h4 {
 	font-weight: $h4-weight;
 	line-height: $h4-lineheight;
 	letter-spacing: $h4-spacing;
-
+	//font-family: $body-font;
 	@include mq(tabletp) {
 		font-size: $h4-medium;
 	}
