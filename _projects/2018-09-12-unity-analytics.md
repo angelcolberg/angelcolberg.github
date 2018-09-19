@@ -7,14 +7,16 @@ featured_image: '/images/projects/unity/unity-full.png'
 
 
 <div class="gallery" data-columns="1">
+<img src="/images/projects/unity/editor.png" >
 <img src="/images/projects/unity/old-integration-1.png" >
+
 <img src="/images/projects/unity/old-integration-2.png" >
 </div>
 
 ## Problem 
 
-Analytics integration task success was at 5% of all users that turned on analytics in their project. The process waas mandatory and required the user, a developer, to manually add code events to their project and then switch on Analytics in their client. They were then sent on a series of steps to the online analytics site and back to the client again in order to validate the added events so that the proper data was collected successfully. 
-This experience led to low rates of adoption and DAU while also  increased frustration from our users.
+Analytics integration task success was at 5% of all users that turned on analytics in their project. The process was mandatory and required the user, a developer, to manually add code events to their project and then switch on analytics in their client. They were then sent on a series of steps to the online analytics site and back to the client again in order to validate the added events so that the proper data was collected successfully. 
+This experience led to low rates of adoption and DAU while also increased frustration from our users.
 
 #### Hypothesis
 
