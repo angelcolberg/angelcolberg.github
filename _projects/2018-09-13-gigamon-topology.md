@@ -1,5 +1,5 @@
 ---
-title: 'Gigamon'
+title: 'Gigamon Envisioning'
 subtitle: 'Topology use case'
 date: 2018-09-13 00:00:00
 featured_image: '/images/projects/gigamon/giga-hero@2x.png'

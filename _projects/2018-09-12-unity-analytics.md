@@ -1,7 +1,7 @@
 ---
-title: 'Unity'
+title: 'Unity Analytics'
 subtitle: 'Analytics Integration Set Up Use Case'
-date: 2018-09-12 00:00:00
+date: 2018-09-12 02:00:00
 featured_image: '/images/projects/unity/unity-full.png'
 ---
 
@@ -33,6 +33,10 @@ Two flows for each of the personas in this scenario was given the ability to add
 ---
 
 ## Iteration 1
+
+<div class="gallery" data-columns="1">
+<img src="/images/projects/unity/integration-map.png">
+</div>
 
 <div class="gallery" data-columns="4">
 <img src="/images/projects/unity/44.png" >

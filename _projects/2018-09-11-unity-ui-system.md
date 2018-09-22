@@ -1,5 +1,5 @@
 ---
-title: 'Unity'
+title: 'Unity Services'
 subtitle: 'Common UI Library Use Case'
 date: 2018-09-11 00:00:00
 featured_image: '/images/projects/unity/unity-full.png'
