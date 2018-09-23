@@ -35,7 +35,7 @@ Two flows for each of the personas in this scenario was given the ability to add
 ## Iteration 1
 
 <div class="gallery" data-columns="1">
-<img src="/images/projects/unity/integration-map.png">
+<img src="/images/projects/unity/Integration-map.png">
 </div>
 
 <div class="gallery" data-columns="4">
