@@ -27,7 +27,7 @@ Interation - Created physical topology-centric configuration system to satisfy w
 
 ## Iteration 1
 
-<div class="gallery" data-columns="1">
+<div class="gallery" style="width: 50%; height: 50%;margin: 0 auto" data-columns="1">
 <img src="/images/projects/gigamon/1.png" >
 <img src="/images/projects/gigamon/2.png">
 <img src="/images/projects/gigamon/4.png">
