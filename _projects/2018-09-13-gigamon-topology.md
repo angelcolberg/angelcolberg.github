@@ -6,9 +6,9 @@ featured_image: '/images/projects/gigamon/giga-hero.png'
 ---
 
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="1">
 <img src="/images/projects/gigamon/old-topology.png" >
-<img src="/images/projects/gigamon/2-Screens-gigamon-3.png">
+
 </div>
 
 ## Problem Definition
