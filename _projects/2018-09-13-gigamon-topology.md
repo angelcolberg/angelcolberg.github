@@ -12,7 +12,7 @@ featured_image: '/images/projects/gigamon/giga-hero.png'
 </div>
 
 ## Problem Definition
-Topology was limited and fraught with usability and cognitive issues. Features were scattered around the site disparately not easily discoverable through the navigation or search. The current use of Cytoscape was also limiting the feature customization necessary to realize our goals.
+Topology had limited functionality and was fraught with usability and cognitive issues. Features were scattered around the site disparately not easily discoverable through the navigation or search. The current use of Cytoscape was also limiting the feature customization necessary to realize our goals.
 
 #### Hypothesis
 Centralizing all features within a topology centric environment would contextualize disparate activities more closely aligned to the users' mental models around systems design based on user research.
@@ -30,8 +30,9 @@ Interation - Created physical topology-centric configuration system to satisfy w
 <div class="gallery" data-columns="1">
 <img src="/images/projects/gigamon/1.png" >
 <img src="/images/projects/gigamon/2.png">
-<img src="/images/projects/gigamon/3.png">
 <img src="/images/projects/gigamon/4.png">
+<img src="/images/projects/gigamon/3.png">
+
 </div>
 
 ### Light themed drag and drop UI
