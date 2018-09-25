@@ -10,7 +10,7 @@ featured_image: /images/posts/logo-pink-hero.png
 
 ---
 
-<div class="gallery" data-columns="1" style="width: 50%; height: 50%;margin: 0 auto">
+<div class="gallery" data-columns="1" style="width: 50%; height: 50%;margin: 1em auto">
 <iframe  width="560" height="315" src="https://www.youtube.com/embed/7E7S5rDTmCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
@@ -24,10 +24,23 @@ featured_image: /images/posts/logo-pink-hero.png
 </div>
  ---
 
- #### Mixes
+#### Mixes
 
+<div style="width: 50%;margin: 1em auto">
 <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fliquid-drum-and-bass%2F" frameborder="0" ></iframe>
 
 <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fjacking-house-september-2018%2F" frameborder="0" ></iframe>
 
 <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fbreaks-september-2018%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fdeep-breaks-september-2018%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2F90s-techno-and-trance-august-2018%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Ftampa-fl-after-party-19941995%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fmore-old-school-trance-august-2018%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fangelcolberg%2Fold-school-trance-august-2018%2F" frameborder="0" ></iframe>
+
+</div>
