@@ -1,7 +1,7 @@
 ---
 title: 'Unity Analytics'
 subtitle: 'Analytics Integration Set Up Use Case'
-date: 2018-09-12 02:00:00
+date: 2018-09-14 02:00:00
 featured_image: '/images/projects/unity/unity-full.png'
 ---
 
@@ -38,6 +38,8 @@ Two flows for each of the personas in this scenario was given the ability to add
 <img src="/images/projects/unity/Integration-map.png">
 </div>
 
+### Legacy Versions
+---
 <div class="gallery" data-columns="4">
 <img src="/images/projects/unity/44.png" >
 <img src="/images/projects/unity/45.png">
@@ -49,6 +51,7 @@ Two flows for each of the personas in this scenario was given the ability to add
 <img src="/images/projects/unity/51.png">
 </div>
 
+### New Versions
 ---
 <div class="gallery" data-columns="4">
 <img src="/images/projects/unity/52.png" >
