@@ -1,7 +1,7 @@
 ---
 title: 'Unity Ads'
 subtitle: 'Actionable Insights from AI'
-date: 2018-09-10 00:00:00
+date: 2018-09-12 00:00:00
 featured_image: '/images/projects/unity/unity-full.png'
 ---
 
