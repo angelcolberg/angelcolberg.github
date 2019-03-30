@@ -21,7 +21,13 @@
 (function ($) {
 	'use strict';
 
-
+// View an image
+const viewer = new Viewer(document.getElementsByTagName(img), {
+	inline: true,
+	viewed() {
+	  viewer.zoomTo(1);
+	},
+  });
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Navigation
 
