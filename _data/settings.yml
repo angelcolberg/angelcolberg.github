@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Angel Colberg
-  site_tagline: 
+  site_tagline: Design Use Cases
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -9,7 +9,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Use Cases'
       url: '/'
     - title: 'About'
       url: '/about'
