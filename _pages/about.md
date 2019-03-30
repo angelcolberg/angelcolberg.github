@@ -10,7 +10,7 @@ featured_image: /images/posts/logo-pink-hero.png
 
 ---
 
-<div class="gallery" data-columns="1" style="width: 50%; height: 50%;margin: 0 auto">
+<div class="gallery" data-columns="1" style="width: 100%; margin: 0 auto">
 <iframe  width="560" height="315" src="https://www.youtube.com/embed/7E7S5rDTmCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
