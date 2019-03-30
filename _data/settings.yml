@@ -59,12 +59,12 @@ color_settings:
   overlay_accent_color: '#2A2F36'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Nanum+Gothic+Coding|Playfair+Display:200,300,500,900" rel="stylesheet">'
-  title_font: '"Playfair Display", serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Nanum+Gothic+Coding" rel="stylesheet">'
+  title_font: '"Nanum Gothic Coding", sans-serif'
   body_font: '"Roboto Condensed", sans-serif'
   menu_font: '"Roboto Condensed", sans-serif'
   mono_font: '"Nanum Gothic Coding", sans-serif'
-  display_font: '"Playfair Display", serif'
+  display_font: '"Nanum Gothic Coding", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
@@ -102,7 +102,7 @@ font_settings:
     small_size: 25
     medium_size: 35
     large_size: 45
-    weight: 200
+    weight: 100
     letter_spacing: 0
     line_height: 1.2
   h2:
@@ -144,7 +144,7 @@ font_settings:
     small_size: 16
     medium_size: 18
     large_size: 20
-    weight: 300
+    weight: 100
     letter_spacing: 0
     line_height: 1.6
   blockquote:
