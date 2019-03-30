@@ -5,23 +5,23 @@ date: 2018-09-10 00:00:00
 featured_image: '/images/projects/gigamon/giga-hero.png'
 ---
 
-
+### Old Topology
 <div class="gallery" data-columns="1">
 <img src="/images/projects/gigamon/old-topology.png" >
 
 </div>
 
 ## Problem Definition
-Topology had limited functionality and was fraught with usability and cognitive issues. Features were scattered around the site disparately not easily discoverable through the navigation or search. The current use of Cytoscape was also limiting the feature customization necessary to realize our goals.
+Gigamon's interactive topology screen had limited functionality and was fraught with usability and cognitive issues. Features were scattered around the site disparately not easily discoverable through the navigation or search. The current use of Cytoscape was also limiting the feature customization necessary to realize our goals.
 
 #### Hypothesis
-Centralizing all features within a topology centric environment would contextualize disparate activities more closely aligned to the users' mental models around systems design based on user research.
+Centralizing all features within a topology centric environment would contextualize disparate activities more closely aligned to the users' mental models around systems design based on user interviews and evaluations.
 
 #### Method
-Mockups and D3 prototypes used for discovery and validation cognitive evaluations. Remote treejack tests were used for information architecture validation. Job stories were used to qualitate user needs.
+Mockups and D3 prototypes used for discovery and validation cognitive evaluations. Remote treejack tests were used for information architecture validation. Job stories were used to qualitate user needs and to create a holistic narrative across our product(s).
 
 #### Result and Next Steps
-Interation - Created physical topology-centric configuration system to satisfy wire/configure and configure/wire scenarios, based on needs analysis, with logical topologies for traffic flow configurations.
+Interation - Created physical topology-centric configuration system to satisfy wire/configure and configure/wire scenarios, based on needs analysis conducted early on, with logical topologies for traffic flow configurations.
 
 ---
 
@@ -45,7 +45,7 @@ Recommended and presented D3 for customizability and Angular Material to standar
 Users will be able to perform all configuration actions contextually in line with their intent as opposed to a series of disparate steps requiring primary memory retrieval across functional feature areas.
 
 #### Method
-GV's Heart framework and job stories are used to determine the signals and metrics needed for for evaluatinng and exiting sprints by addressing goals in a quantitative manner through the use of prototypes.
+GV's Heart framework and job stories are used to determine the signals and metrics needed for evaluatinng and exiting sprints by addressing goals in a quantitative manner through the use of prototypes in interviews.
 
 #### Result and Next Steps
 Users performed all configuration actions contextually in line with their intent as opposed to a series of disparate steps across functional feature areas which required extensive domain and application knowledge. Logical diagrams and a darker theme to satisfy NetOps as well as SecOps environments.
@@ -106,6 +106,6 @@ Separating physical topologies and logical flow maps allowed our users' mental m
 Cognitive and usability evaluations via D3 / Angular prototype.
 
 #### Results
-Users can now complete their role based tasks in a manner that fits their intent instead of having to worry about the underlying system topology.
+Users can now complete their role based tasks in a manner that fits their intent instead of having to worry about the underlying system structure.
 
 
